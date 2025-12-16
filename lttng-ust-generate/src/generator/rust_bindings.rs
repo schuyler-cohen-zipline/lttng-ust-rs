@@ -3,7 +3,7 @@ use std::io;
 use std::io::prelude::*;
 use std::path::PathBuf;
 
-use ::{CTFType, EventClass, EventInstance, Field, Provider};
+use crate::{CTFType, EventClass, EventInstance, Field, Provider};
 
 use super::tracepoint_interface::generate_func_name;
 

@@ -4,7 +4,7 @@ use std::io::prelude::*;
 use std::path::PathBuf;
 use bindgen::Builder;
 
-use ::{EventClass, EventInstance, Field, Provider};
+use crate::{EventClass, EventInstance, Field, Provider};
 use super::ctf_field_c_type;
 
 pub(in super) fn generate_interface_impl(path: &PathBuf,

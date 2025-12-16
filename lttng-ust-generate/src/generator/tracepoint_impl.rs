@@ -3,7 +3,7 @@ use std::io;
 use std::io::prelude::*;
 use std::path::PathBuf;
 
-use ::{CTFType, EventClass, Field, Provider};
+use crate::{CTFType, EventClass, Field, Provider};
 use super::ctf_field_c_type;
 
 pub(in super) fn generate_tp_impl(path: &PathBuf, include_path: &PathBuf) -> io::Result<()> {
